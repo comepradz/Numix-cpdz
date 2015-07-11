@@ -1,0 +1,54 @@
+/************
+ * notebook *
+ ************/
+
+.notebook {
+    border: 2px solid transparent;
+    border-radius: 0;
+    border-image: -gtk-scaled(url("borders/notebook/notebook.png"), url("borders/notebook/notebook@2.png")) 2 / 2px stretch;
+}
+
+.notebook tab {
+
+}
+
+.notebook tab.top {
+    border-bottom-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-top.png"), url("borders/notebook/tab-top@2.png")) 3 3 0 3 / 3px 3px 0 3px stretch;
+}
+
+.notebook tab.bottom {
+    border-top-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-bottom.png"), url("borders/notebook/tab-bottom@2.png")) 0 3 3 3 / 0 3px 3px 3px stretch;
+}
+
+.notebook tab.left {
+    border-right-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-left.png"), url("borders/notebook/tab-left@2.png")) 3 0 3 3 / 3px 0 3px 3px stretch;
+}
+
+.notebook tab.right {
+    border-left-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-right.png"), url("borders/notebook/tab-right@2.png")) 3 3 3 0 / 3px 3px 3px 0 stretch;
+}
+
+.notebook tab.top:active {
+    border-bottom-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-top-active.png"), url("borders/notebook/tab-top-active@2.png")) 3 3 0 3 / 3px 3px 0 3px stretch;
+}
+
+.notebook tab.bottom:active {
+    border-top-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-bottom-active.png"), url("borders/notebook/tab-bottom-active@2.png")) 0 3 3 3 / 0 3px 3px 3px stretch;
+}
+
+.notebook tab.left:active {
+    border-right-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-left-active.png"), url("borders/notebook/tab-left-active@2.png")) 3 0 3 3 / 3px 0 3px 3px stretch;
+}
+
+.notebook tab.right:active {
+    border-left-width: 0;
+    border-image: -gtk-scaled(url("borders/notebook/tab-right-active.png"), url("borders/notebook/tab-right-active@2.png")) 3 3 3 0 / 3px 3px 3px 0 stretch;
+}
+

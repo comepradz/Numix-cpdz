@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Numix-cpdz
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Numix-cpdz
+MetacityTheme=Numix-cpdz
+ButtonLayout=:minimize,maximize,close
