@@ -28,7 +28,7 @@
  * pathbar breadcrumbs *
  ***********************/
 NemoPathbarButton {
-    border-color: shade(@toolbar_bg_color, 0.8);
+    border-color: shade(@toolbar_bg_color, 1.0);
     background-color: shade(@toolbar_bg_color, 1.08);
     background-image: none;
     color: @toolbar_fg_color;
@@ -37,7 +37,7 @@ NemoPathbarButton {
 }
 
 NemoPathbarButton:active {
-    border-color: shade(@toolbar_bg_color, 0.8);
+    border-color: shade(@toolbar_bg_color, 1.0);
     background-color: shade(@toolbar_bg_color, 0.95);
     background-image: none;
 }
@@ -56,7 +56,7 @@ NemoPathbarButton:active:hover {
  * sidebar disk space indicators *
  *********************************/
 NemoPlacesTreeView {
-    -NemoPlacesTreeView-disk-full-bg-color: shade(@toolbar_bg_color, 0.8);
+    -NemoPlacesTreeView-disk-full-bg-color: shade(@toolbar_bg_color, 3.2);
     -NemoPlacesTreeView-disk-full-fg-color: @theme_selected_bg_color;
     -NemoPlacesTreeView-disk-full-bar-width: 1px;
     -NemoPlacesTreeView-disk-full-bar-radius: 1px;
