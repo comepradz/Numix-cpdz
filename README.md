@@ -35,3 +35,4 @@ License: GPL-3.0+
 ### Additional information on -cpdz mod
 
 This modification used best for maximum screen area utility on Cinnamon DM. It is recommended to set the window title font to 1.
+

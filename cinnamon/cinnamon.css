@@ -298,14 +298,14 @@ StScrollBar StButton#hhandle {
 }
 
 .panel-top {
-    border-image: url("panel-assets/panel-top.svg") 4;
+    border-image: url("panel-assets/panel-top.png") 4;
     color: #dcdcdc;
     font-size: 9pt;
     height: 25px;
 }
 
 .panel-bottom {
-    border-image: url("panel-assets/panel-bottom.svg") 4;
+    border-image: url("panel-assets/panel-bottom.png") 4;
     color: #dcdcdc;
     font-size: 9pt;
     height: 25px;
